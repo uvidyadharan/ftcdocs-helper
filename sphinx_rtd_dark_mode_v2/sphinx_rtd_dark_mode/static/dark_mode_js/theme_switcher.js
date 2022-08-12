@@ -14,6 +14,10 @@ $(document).ready(() => {
   createThemeSwitcher();
   $('#themeSwitcher').click(switchTheme);
 
+  $('footer').html(
+    $('footer').html() +
+      '<a href="https://github.com/FIRST-Tech-Challenge/ftcdocs-helper/tree/main/sphinx_rtd_dark_mode_v2">Dark theme</a> provided by FTC Docs Development Team.'
+  );
 });
 
 const switchTheme = () => {
