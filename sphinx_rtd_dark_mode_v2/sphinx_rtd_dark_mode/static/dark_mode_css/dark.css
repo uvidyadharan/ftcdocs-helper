@@ -60,15 +60,12 @@ html[data-theme='dark'] .wy-nav-content a:visited {
 }
 
 html[data-theme='dark'] .btn-neutral {
-  background-color: #333333 !important;
+  color: #101010;
+  background-color: #f3f6f6 !important;
 }
 
 html[data-theme='dark'] .btn-neutral:hover {
-  background-color: #17181c !important;
-}
-
-html[data-theme='dark'] .btn-neutral:visited {
-  color: #c1c1c1 !important;
+  background-color: #6c6c6c !important;
 }
 
 html[data-theme='dark'] .btn {
