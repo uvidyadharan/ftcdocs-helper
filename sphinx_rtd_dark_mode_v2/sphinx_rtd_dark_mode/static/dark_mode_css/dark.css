@@ -59,7 +59,7 @@ html[data-theme='dark'] .wy-nav-content a:visited {
   color: var(--dark-link-color);
 }
 
-html[data-theme='dark'] .btn-neutral, .btn-neutral:visited {
+html[data-theme='dark'] .btn-neutral, html[data-theme='dark'] .btn-neutral:visited {
   color: #101010 !important;
   background-color: #f3f6f6 !important;
 }
