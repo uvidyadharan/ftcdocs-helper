@@ -49,6 +49,15 @@ body{
   color: #0b0c0d;
 }
 
+.btn-neutral, .btn-neutral:visited {
+  color: #ffffff !important;
+  background-color: #101010 !important;
+}
+
+.btn-neutral:hover {
+  background-color: #6c6c6c !important;
+}
+
 body,
 .wy-nav-content-wrap,
 .wy-nav-content,
