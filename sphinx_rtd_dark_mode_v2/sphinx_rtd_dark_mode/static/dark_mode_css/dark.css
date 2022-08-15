@@ -7,6 +7,10 @@ html[data-theme='dark'] body {
   color: #bfbfbf;
 }
 
+html[data-theme='dark'] .sd-card, html[data-theme='dark'] .sd-card-footer {
+  background-color: #333333 !important;
+}
+
 html[data-theme='dark'] .wy-nav-content-wrap {
   background-color: #101010;
 }
