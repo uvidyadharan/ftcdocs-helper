@@ -49,7 +49,7 @@ body{
   color: #0b0c0d;
 }
 
-.btn-neutral, .btn-neutral:visited {
+.btn-neutral, .btn-neutral:visited, .sd-btn:hover{
   color: #ffffff !important;
   background-color: #101010 !important;
 }
