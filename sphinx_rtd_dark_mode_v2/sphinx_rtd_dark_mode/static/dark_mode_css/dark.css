@@ -63,9 +63,14 @@ html[data-theme='dark'] .wy-nav-content a:visited {
   color: var(--dark-link-color);
 }
 
-html[data-theme='dark'] .btn-neutral, html[data-theme='dark'] .btn-neutral:visited {
+html[data-theme='dark'] .btn-neutral, html[data-theme='dark'] .btn-neutral:visited, html[data-theme='dark'] .sd-btn:hover{
   color: #101010 !important;
   background-color: #f3f6f6 !important;
+}
+
+html[data-theme='dark'] .sd-btn {
+  color: #f3f6f6 !important;
+  border-color: #f3f6f6 !important;
 }
 
 html[data-theme='dark'] .btn-neutral:hover {
