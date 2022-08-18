@@ -1,0 +1,17 @@
+name: Tuned
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Apply settings
+      run: ./speedup.sh
+    - name: Update apt sources
+      run: sudo apt-get update -y
+    - name: Install libguestfs-tools
+      run: sudo apt-get install libguestfs-tools -y
