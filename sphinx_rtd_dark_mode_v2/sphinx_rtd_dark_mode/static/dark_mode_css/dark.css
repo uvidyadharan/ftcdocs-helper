@@ -68,6 +68,11 @@ html[data-theme='dark'] .btn-neutral, html[data-theme='dark'] .btn-neutral:visit
   background-color: #f3f6f6 !important;
 }
 
+html[data-theme='dark'] .invert-img{
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 html[data-theme='dark'] .sd-btn {
   color: #f3f6f6 !important;
   border-color: #f3f6f6 !important;
