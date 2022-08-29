@@ -69,8 +69,8 @@ html[data-theme='dark'] .btn-neutral, html[data-theme='dark'] .btn-neutral:visit
 }
 
 html[data-theme='dark'] .invert-img{
-  -webkit-filter: invert(1);
-  filter: invert(1);
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
 }
 
 html[data-theme='dark'] .sd-btn {
