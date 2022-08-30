@@ -58,14 +58,6 @@ body{
   background-color: #6c6c6c !important;
 }
 
-.light-figure {
-  display: flex !important;
-}
-
-.dark-figure {
-  display: none !important;
-}
-
 body,
 .wy-nav-content-wrap,
 .wy-nav-content,
