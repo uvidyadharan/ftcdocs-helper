@@ -73,6 +73,14 @@ html[data-theme='dark'] .invert-img{
   filter: grayscale(1) invert(1);
 }
 
+html[data-theme='dark'] .light-figure {
+  display: none !important;
+}
+
+html[data-theme='dark'] .dark-figure {
+  display: flex !important;
+}
+
 html[data-theme='dark'] .sd-btn {
   color: #f3f6f6 !important;
   border-color: #f3f6f6 !important;

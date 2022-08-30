@@ -13,10 +13,13 @@ __version__ = "1.2.4"
 __license__ = "MIT"
 
 from sphinx_rtd_dark_mode.dark_mode_loader import DarkModeLoader
+from sphinx_rtd_dark_mode.figure import DarkFigure
 
 
 def setup(app):
     app.add_config_value("default_dark_mode", True, "html")
+
+    app.add_directive("darkfigure", DarkFigure)
 
     app.connect("config-inited", DarkModeLoader().configure)
 
