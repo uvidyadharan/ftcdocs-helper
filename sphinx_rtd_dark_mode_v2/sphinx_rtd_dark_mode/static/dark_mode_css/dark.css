@@ -7,6 +7,22 @@ html[data-theme='dark'] body {
   color: #bfbfbf;
 }
 
+html[data-theme='dark'] ::-webkit-scrollbar {
+  width: 14px;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: rgb(50, 50, 50); 
+}
+ 
+html[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #666; 
+}
+
 html[data-theme='dark'] .sd-card, html[data-theme='dark'] .sd-card-footer {
   background-color: #333333 !important;
 }
