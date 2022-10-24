@@ -2,6 +2,7 @@ const createThemeSwitcher = () => {
   let btn = document.createElement('BUTTON');
   btn.className = 'theme-switcher';
   btn.id = 'themeSwitcher';
+  btn.ariaLabel = 'themeSwitcher';
   btn.innerHTML =
     '<i id=themeMoon class="fa fa-moon-o"></i><i id=themeSun class="fa fa-sun-o"></i>';
   document.body.appendChild(btn);
